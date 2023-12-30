@@ -11,7 +11,7 @@ LOGFILE="/tmp/$0-$TIMESTAMP.log"
 
 echo "script stareted executing at $TIMESTAMP" &>> $LOGFILE
 
-VALIDATE (){
+VALIDATE () {
        if [ $1 then -ne 0 ];
        then
         echo -e "$2 ...$R FAILED $N"
