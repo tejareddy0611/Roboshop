@@ -59,7 +59,7 @@ cd /app &>> $LOGFILE &>> $LOGFILE
 
 VALIDATE $? "Opening the directory"
 
-npm install $LOGFILE &>> $LOGFILE
+npm install &>> $LOGFILE
 
 
 VALIDATE $? "Installing npm"
